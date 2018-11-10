@@ -5,3 +5,5 @@ code/.ipynb_checkpoints
 *.log
 *.gz
 *.aux
+*.bbl
+*.blg

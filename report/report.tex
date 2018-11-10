@@ -5,34 +5,28 @@
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{graphicx}
+\usepackage{natbib}
 \usepackage{textcomp}
 \usepackage{xcolor}
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
-\title{Paper Title*\\
-{\footnotesize \textsuperscript{*}Note: Sub-titles are not captured in Xplore and
-should not be used}
-\thanks{Identify applicable funding agency here. If none, delete this.}
-}
+\title{Doodle Classification}
 
-\author{\IEEEauthorblockN{1\textsuperscript{st} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
+\author{\IEEEauthorblockN{Hunter Song}
+\IEEEauthorblockA{
+\textit{McGill ID: 260853343} \\
 email address}
 \and
-\IEEEauthorblockN{2\textsuperscript{nd} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
+\IEEEauthorblockN{Talha Tariq}
+\textit{McGill ID: 260853343} \\
+\IEEEauthorblockA{
 email address}
 \and
-\IEEEauthorblockN{3\textsuperscript{rd} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
+\IEEEauthorblockN{Van-Tien, Hoang}
+\textit{McGill ID: 260881418} \\
+\IEEEauthorblockA{
 email address}
 }
 
@@ -46,9 +40,46 @@ This is the abstract
 keywords
 \end{IEEEkeywords}
 
-\section{Introduction}
-\section{Methdology}
+\section{Introduction} 
+
+Order of names are randomly, I agree whatever order you guys prefer and give no comments.
+
+Briefly describe the problem and summarize your approach
+and results.~\cite{akl2007dynamic}
 
 
+\section{Feature Design} 
+Describe and justify your pre-processing methods,
+and how you designed and selected your features.
+\section{ Algorithms}
+ Give an overview of the learning algorithms used without
+going into too much detail in the class notes (e.g. SVM derivation,
+etc.), unless necessary to understand other details.
+\section{Methodology}
+ Include any decisions about training/validation split,
+distribution choice for naive bayes, regularization strategy, any optimization
+tricks, setting hyper-parameters, etc.
+\section{Results}
+ Present a detailed analysis of your results, including graphs
+and tables as appropriate. This analysis should be broader than just
+the Kaggle result: include a short comparison of the most important
+hyperparameters and all 3 methods you implemented.
+\section{Discussion} Discuss the pros/cons of your approach \& methodology
+and suggest areas of future work.
+
+\section{Statement of Contributions} Briefly describe the contributions of each
+team member towards each of the components of the project (e.g.
+defining the problem, developing the methodology, coding the solution,
+performing the data analysis, writing the report, etc.) At the end
+of the Statement of Contributions, add the following statement: We
+hereby state that all the work presented in this report is that of the
+authors.
+%• References (optional).
+\section{Appendix (optional)} 
+Here you can include additional results, more
+detail of the methods, etc.
+
+\bibliographystyle{plain}
+\bibliography{report}
 
 \end{document}
