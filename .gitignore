@@ -1,2 +1,7 @@
+data/
 *.csv
 *.npy
+code/.ipynb_checkpoints
+*.log
+*.gz
+*.aux
