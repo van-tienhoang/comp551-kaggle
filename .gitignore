@@ -1,4 +1,4 @@
-data/
+
 *.csv
 *.npy
 code/.ipynb_checkpoints
