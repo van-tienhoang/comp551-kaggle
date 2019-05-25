@@ -1,4 +1,4 @@
-# comp551-kaggle
+# comp551-kaggle: McGill
 
 
 
